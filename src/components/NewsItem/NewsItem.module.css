@@ -1,0 +1,35 @@
+.news-item {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.news-item h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.news-item p {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.news-item a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
+
+.news-item ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-item li {
+  margin: 5px 0;
+}

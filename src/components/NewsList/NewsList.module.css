@@ -1,0 +1,24 @@
+.news-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.news-list-item:hover {
+  background-color: #f5f5f5;
+}
+
+.news-list-item a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.news-list-item a:hover {
+  text-decoration: underline;
+}

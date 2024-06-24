@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+.news-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-item a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.news-item a:hover {
+  text-decoration: underline;
+}
+
+.news-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.news-item p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.news-item ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news-item li {
+  margin-bottom: 5px;
+}
+
+.news-item li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.news-item li a:hover {
+  text-decoration: underline;
+}

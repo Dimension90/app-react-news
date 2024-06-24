@@ -1,0 +1,35 @@
+.favoritesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favoritesList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.favoritesList li:last-child {
+  border-bottom: none;
+}
+
+.favoritesList a {
+  text-decoration: none;
+  color: #333;
+}
+
+.favoritesList button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.favoritesList button:hover {
+  color: #666;
+}
